@@ -15,6 +15,11 @@ namespace mdoc.Test.SampleClasses
             
         }
 
+        ~SomeClass()
+        {
+
+        }
+
         public int Field;
 
         public int Property { get; set; }
